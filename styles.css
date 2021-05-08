@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.container{
+    min-height: 130vh;
+    width: 800px;
+    box-shadow: 2px 2px 50px rgb(138, 123, 123);
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container .top{
+    min-height:200px;
+    background-color: rgb(104, 103, 103);
+    border-radius: 30px 30px 0 0 ;
+}
+
+img{
+    border: 5px dotted rgb(250,190,40);
+    border-radius:50%;
+    padding: 2px;
+    z-index: 1;
+    width:120px; height:120px;
+}
+
+.image{
+   display: grid;
+   justify-items: center;
+   position: relative;
+   top:10px;
+
+}
+
+.whiteLine{
+    height: 20px;
+    width: auto;
+    position: relative;
+    background-color:white;
+    z-index: 5;
+    top: 10px;
+}
+.whiteLine .name{
+   background-color:  rgb(250,190,40);
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.topLine{
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+.line{
+    margin: 0;
+    padding:0;
+    height:1px;
+    width: auto;
+    background-color: rgb(104, 103, 103);
+}
+
+.mainBox{
+    position: relative;
+}
+
+.rightBox{
+    width: 50%;
+    position: absolute;
+    left: 54%;
+    right: 0;
+    height:auto;
+    top: -5px;
+}
+
+.leftBox{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: auto;
+    position: absolute;
+    border-right: 2px solid grey;
+}
+.box{
+    min-height: 550px;
+    width: 90%;
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.profile{
+    width: 300px;
+    text-align: justify;
+    
+}
+
+.profile p{
+    font-size:15px;
+}
+
+
+.skills  b{
+   display: grid;
+   justify-content:center;
+}
+
+.first{
+  display: flex;
+  justify-content:space-around;
+}
+
+.skillsBox{
+    margin-top: -20px;
+    font-size:15px;
+}
+
+.technicalSkills{
+    display: flex;
+    margin-top:5px;
+  
+}
+
+.name1{
+    display: inline-block;
+    position: relative;
+    line-height:5px;
+    margin-left: 15px;
+}
+
+.range1{
+    display: grid;
+    position: relative;
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+
+.name2{
+    display: inline-block;
+    position: relative;
+    line-height:2px;
+    margin-left: -20px;
+}
+
+.range2{
+    display: grid;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+
+.additionalSkills{
+    margin-top: 5px;
+    line-height:2px;
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+
+.dateRight{
+    margin-left: 100px;
+
+}
+
+
+ul{
+    margin-left: -10px;
+    text-align: justify;
+    font-size: 15px;
+    width: 300px;
+}
+
+.cRM{
+    position: absolute;
+    font-size:15px;
+}
+
+.communityManagement{
+    font-size: 15px;
+}
+.communityManagement .span1{
+    position: absolute;
+    left: 220px;
+}
+.span2{
+    position: absolute;
+    top: 104px;
+}
+
+.communityManagement ul{
+    position: absolute;
+    top: 112px;
+    text-align: justify;
+}
+
+
+.education{
+    position: relative;
+    top: 150px;
+    
+}
+
+.education .span3{
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    font-size:15px;
+}
+
+.span4{
+    font-size: 15px;
+}
+
+.education p{
+    text-align:justify;
+    font-size:15px;
+    width: 310px;
+}
+
+b{
+    font-size: 15px;
+}
+.span5{
+    font-size: 15px;
+    position: absolute;
+    left: 220px;
+}
+.span6{
+    font-size: 15px;
+
+}
+
+.fa-user-circle{
+    color:rgb(250,190,40);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+}
+
+.fa-flask{
+    color:rgb(250,190,40);
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    top: 183px;
+    left: -5px;
+}
+.fa-briefcase{
+    color:rgb(250,190,40);
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    top: 540px;
+}
+
+.fa-briefcase2{
+    color:rgb(250,190,40);
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+}
+.fa-graduation-cap{
+    color:rgb(250,190,40);
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+}
+h2{
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+h3{
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+input[type="range"] {
+    /* width: 400px; */
+    height: 12px;
+    -webkit-appearance: none;
+    background: rgb(241, 229, 229);
+    outline: none;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fdd700;
+    cursor: pointer;
+    border: 4px solid rgb(39, 183, 194);
+    box-shadow: -407px 0 0 400px #fdd700;
+  }
